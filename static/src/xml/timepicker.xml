@@ -12,7 +12,7 @@
                        t-att-maxlength="widget.field.size"
                        class="timepickerg form-control"
                         />
-                <span class="input-group-addon" style="display:none;"><i></i></span>
+                <span class="input-group-addon" style="display:none;"><i/></span>
             </div>
 
         </span>

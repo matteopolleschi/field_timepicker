@@ -2,8 +2,7 @@ odoo.define('field_timepicker.timepicker', function(require) {
     "use strict";
 
     var field_registry = require('web.field_registry');
-    var Field = field_registry.get('char');
-
+    var Field = require('web.basic_fields').FieldChar;
     var global_show_time = null;
 
     var FieldTimePicker = Field.extend({
